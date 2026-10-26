@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "category": "Web",
+    "description": "This site! A multi-page portfolio built with Bootstrap, custom CSS, and JavaScript that loads my projects from a JSON file.",
+    "details": "Built for MIS 4013. Projects are stored in data/projects.json and loaded with fetch(), so adding a new project only means adding a new object to the JSON file. Includes category filtering, keyword search, a dark mode toggle, and project detail modals.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "JSON"
+    ],
+    "status": "Complete",
+    "link": ""
+  },
+  {
+    "title": "C# Console Applications",
+    "category": "Programming",
+    "description": "A set of C# console programs from MIS 4013 practicing variables, loops, conditionals, methods, and user input validation.",
+    "details": "Each program solves a small business-style problem through the console, like calculating totals, validating input, and looping through menus until the user exits. These assignments are where I got comfortable with object-oriented basics and debugging in Visual Studio.",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Visual Studio"
+    ],
+    "status": "Complete",
+    "link": ""
+  },
+  {
+    "title": "Responsive Bootstrap Web Pages",
+    "category": "Web",
+    "description": "Class web pages using Bootstrap's grid, cards, and navbar to build layouts that adjust from desktop to phone screens.",
+    "details": "Earlier MIS 4013 assignments focused on the Bootstrap grid system, responsive navbars, and styling components with custom CSS. These were the foundation for this portfolio.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "status": "Complete",
+    "link": ""
+  },
+  {
+    "title": "Electricity Markets & Renewables Analysis",
+    "category": "Energy",
+    "description": "Coursework from EMGT 3113 comparing how solar, wind, and hydro generation fit into electricity markets and pricing.",
+    "details": "Looked at the fundamentals of different energy types and how electricity markets dispatch generation. Used spreadsheets to compare capacity factors and costs across renewable sources.",
+    "technologies": [
+      "Excel",
+      "Energy Economics"
+    ],
+    "status": "Complete",
+    "link": ""
+  },
+  {
+    "title": "Renewable Asset Performance Tracker",
+    "category": "Data",
+    "description": "Spreadsheet-based tracker idea from my asset management internship for monitoring how renewable projects perform against expectations.",
+    "details": "During my summer at Acciona Energy in Chicago I saw how much asset managers rely on tracking actual vs. expected generation. This is a personal version of that idea that I plan to rebuild as a small dashboard. (Placeholder: will update with screenshots once built.)",
+    "technologies": [
+      "Excel",
+      "Data Analysis"
+    ],
+    "status": "Planned",
+    "link": ""
+  }
+]

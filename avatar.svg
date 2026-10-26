@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 340" width="280" height="340">
+  <!-- Placeholder portrait. Replace with a real headshot (ex: images/headshot.jpg) -->
+  <rect width="280" height="340" fill="#14212b"/>
+  <g stroke="#ffffff" stroke-opacity="0.08" fill="none">
+    <path d="M0 60H280M0 200H280M70 0V340M210 0V340"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.2">
+    <circle cx="70" cy="60" r="3"/>
+    <circle cx="210" cy="200" r="3"/>
+    <rect x="205" y="55" width="10" height="10"/>
+  </g>
+  <!-- simple head and shoulders silhouette -->
+  <circle cx="140" cy="150" r="46" fill="#2a3a45"/>
+  <path d="M52 340 C52 262 96 222 140 222 C184 222 228 262 228 340 Z" fill="#2a3a45"/>
+  <text x="140" y="164" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#e6ebee" text-anchor="middle" letter-spacing="1">JJ</text>
+</svg>

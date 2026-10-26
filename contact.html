@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaxson Jennings | Contact</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-lightning-charge-fill"></i> Jaxson Jennings</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode"><i class="bi bi-moon-stars-fill"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Page Header ===== -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="mb-0">I'd love to connect, especially if you work in energy, utilities, or energy tech.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Bootstrap alert -->
+      <div class="alert d-flex align-items-center gap-2 mb-5" role="alert"
+        style="background-color: var(--section-alt); border: 1px solid var(--gold); color: var(--ink);">
+        <i class="bi bi-briefcase-fill" style="color: var(--crimson);"></i>
+        <div><strong>Open to opportunities:</strong> looking for full-time roles in energy tech starting after graduation in May 2027. Open to Chicago and New York.</div>
+      </div>
+
+      <div class="row g-4 text-center">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-custom contact-card h-100">
+            <div class="card-body">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <h5>Email</h5>
+              <p class="text-muted-custom small">Best way to reach me</p>
+              <!-- TODO: put your real email in both spots below -->
+              <a href="mailto:jaxsonjennings1@gmail.com" class="btn btn-crimson btn-sm">Send an Email</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-custom contact-card h-100">
+            <div class="card-body">
+              <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+              <h5>LinkedIn</h5>
+              <p class="text-muted-custom small">See my full background</p>
+              <a href="https://www.linkedin.com/in/jaxson-jennings-jax2027" target="_blank" class="btn btn-crimson btn-sm">View Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-custom contact-card h-100">
+            <div class="card-body">
+              <div class="contact-icon"><i class="bi bi-github"></i></div>
+              <h5>GitHub</h5>
+              <p class="text-muted-custom small">Code for my projects</p>
+              <a href="https://github.com/jaxsonjennings" target="_blank" class="btn btn-crimson btn-sm">View GitHub</a>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-custom contact-card h-100">
+            <div class="card-body">
+              <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <h5>Location</h5>
+              <p class="text-muted-custom small">Norman, Oklahoma</p>
+              <span class="badge skill-badge">Willing to relocate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="mb-2">
+        <a href="https://www.linkedin.com/in/jaxson-jennings-jax2027" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/jaxsonjennings" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="contact.html" aria-label="Contact"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+      <p class="mb-0">&copy; <span id="year">2026</span> Jaxson Jennings &middot; Built with HTML, CSS, JS &amp; Bootstrap</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
